@@ -13,5 +13,5 @@ class Monad c => MonadConnection c where
   recv :: Int -> c S.ByteString
   reconnect :: c ()
 
-class MonadConnection c => RunMonadConnection c s m | c -> s, c -> m where
+class RunMonadConnection c s m | c -> s, c -> m where
   runConnection :: s -> c a -> m a
