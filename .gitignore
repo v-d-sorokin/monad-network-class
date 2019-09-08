@@ -2,6 +2,7 @@
 *.o
 *.hs~
 dist/
+result
 src/main
 *.aux
 *.eventlog
