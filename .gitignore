@@ -1,7 +1,9 @@
 *.hi
 *.o
 *.hs~
+*_flymake.hs
 dist/
+dist-newstyle/
 result
 src/main
 *.aux
